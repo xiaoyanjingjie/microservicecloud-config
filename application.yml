@@ -5,11 +5,14 @@
 #
 #
 #---
-
 spring:
   profiles:
     active:
-    - dev
+      - dev
+#spring:
+#  profiles:
+#    active:
+#    - dev
 
 ---
 
