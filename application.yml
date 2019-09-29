@@ -5,7 +5,6 @@ spring:
 
 
 ---
-#开发环境
 spring:
   profiles: dev
   application:
@@ -13,9 +12,7 @@ spring:
 
 
 ---
-#测试环境
 spring:
   profiles: test
   application:
     name: microservicecloud-config-atguigu-test
-#请保存为UTF-8格式
