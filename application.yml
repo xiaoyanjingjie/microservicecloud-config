@@ -3,15 +3,15 @@ spring:
     active:
       - dev
 ---
-spring:
-  profiles: dev    
-    application:
-    name: microservicecloud-config-atguigu-dev
 #开发环境
----
 spring:
-  profiles: test  
-    application:
-    name: microservicecloud-config-atguigu-test
+  profiles: dev
+    application:
+      name: microservicecloud-config-atguigu-dev
+---
 #测试环境
+spring:
+  profiles: test
+    application:
+      name: microservicecloud-config-atguigu-test
 #请保存为UTF-8格式
